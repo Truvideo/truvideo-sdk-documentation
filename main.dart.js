@@ -84024,7 +84024,7 @@ case 2:if(c)A.auz(p)
 return A.a_(null,r)}})
 return A.a0($async$x9,r)},
 L(a){var s=null
-return A.dY(s,A.kp(A.id(s,new A.xd(B.N,!1,B.ae,s,B.AX,s,new A.HZ(s,"https://jitpack.io/v/"+this.c+".svg"),!1,s,s,B.BM,s,s),B.a7,!1,s,s,s,s,s,s,s,s,s,s,s,s,s,s,s,s,s,this.gab3(this),s,s,s,!1,B.aS),B.aL,s,s,s),B.t,s,s,s,s,s,B.cW,s,s,s,s)}}
+return A.dY(s,A.kp(A.id(s,new A.xd(B.N,!1,B.ae,s,B.AX,s,new A.HZ(s,"https://jitpack.io/v/"+this.c+".svg"),!1,s,s,B.BM,120,s),B.a7,!1,s,s,s,s,s,s,s,s,s,s,s,s,s,s,s,s,s,this.gab3(this),s,s,s,!1,B.aS),B.aL,s,s,s),B.t,s,s,s,s,s,B.cW,s,s,s,s)}}
 A.J8.prototype={
 L(a){return B.Ql}}
 A.xV.prototype={
@@ -84665,24 +84665,27 @@ o=p.c
 o.toString
 p.a9z(o,s,q).bx(new A.aoz(p,q,s),t.P)},
 L(a){var s,r,q,p,o,n,m,l,k,j=this,i=null,h=j.d,g=h==null?i:h.a
-if(g!=null){j.a.toString
+if(g!=null){h=j.a
+s=h.d
+r=h.e
 h=g.b
-s=h.a
-r=h.b
-q=Math.min(s/s,r/r)
-if($.aE6()){p=j.d.b
+q=h.gY(h)
+if(!q)r=s/h.a*h.b
+r.toString
+p=Math.min(h.a/s,h.b/r)
+if($.aE6()){q=j.d.b
 o=j.a
-n=new A.Vg(g,o.at,o.ax,p,i,i)
-p=o}else{p=j.a
-o=p.ay
+n=new A.Vg(g,o.at,o.ax,q,i,i)
+q=o}else{q=j.a
+o=q.ay
 m=j.d
-l=p.at
-k=p.ax
-if(o===B.OC)n=new A.Vf(g,l,q,k,m.b,i,i)
+l=q.at
+k=q.ax
+if(o===B.OC)n=new A.Vf(g,l,p,k,m.b,i,i)
 else{m.toString
-n=new A.Ve(g,l,k,i,i)}}n=A.hp(new A.JG(p.f,p.r,p.z,A.Og(n,h),i),r,s)}else{h=j.a
-p=h.d
-n=A.hp(i,h.e,p)}n=A.cH(i,n,!1,i,i,!1,i,i,i,!0,"",i,i,i,i,i,i,i,i,i,i,i,i,i,i,i,i,i)
+n=new A.Ve(g,l,k,i,i)}}n=A.hp(new A.JG(q.f,q.r,q.z,A.Og(n,h),i),r,s)}else{h=j.a
+q=h.d
+n=A.hp(i,h.e,q)}n=A.cH(i,n,!1,i,i,!1,i,i,i,!0,"",i,i,i,i,i,i,i,i,i,i,i,i,i,i,i,i,i)
 return n}}
 A.aoB.prototype={
 $1(a){var s=this.b

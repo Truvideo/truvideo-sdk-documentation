@@ -87180,7 +87180,7 @@ $0(){return new A.b1(this.a,t.Dz)},
 $S:83}
 A.Is.prototype={
 cA(a,b){var s=b.cn($.eB(),t.l)
-return new A.aZ(1/0,null,A.bu(A.b([B.DM,B.p,new A.dP("On Android, the SDK needs to be initialized to function properly. To achieve this, you should add the following code snippet inside the `onCreate` method of the activity that will invoke the camera:\n",null),B.p,A.cs(this.a9k(a,s),s.gl(s))],t.p),B.y,B.r,B.w),null)},
+return new A.aZ(1/0,null,A.bu(A.b([B.DJ,B.p,new A.dP("On Android, the SDK needs to be initialized to function properly. To achieve this, you should add the following code snippet inside the `onCreate` method of the activity that will invoke the camera:\n",null),B.p,A.cs(this.a9k(a,s),s.gl(s))],t.p),B.y,B.r,B.w),null)},
 a9k(a,b){switch(b.a){case 0:return"import com.truvideo.sdk.camera.TruvideoSdkCamera;\n\npublic class YourActivity extends AppCompatActivity {\n    @Override\n    protected void onCreate(@Nullable Bundle savedInstanceState) {\n        super.onCreate(savedInstanceState);\n        TruvideoSdkCamera.getInstance().init(this);        \n        //... rest of your code\n    }\n}\n"
 case 1:return"import com.truvideo.sdk.camera.TruvideoSdkCamera\n\nclass YourActivity: AppCompatActivity() {\n    override fun onCreate(savedInstanceState: Bundle?) {\n        super.onCreate(savedInstanceState)\n        TruvideoSdkCamera.init(this)\n        //...rest of your code\n    }\n}"
 case 2:return""}}}
@@ -87189,10 +87189,10 @@ G(a){var s=null
 return A.c1(s,A.bu(A.b([new A.dP("The **camera module** provides solutions for functionalities related to **video recording** and **photo capture**. The primary use cases include:\n\n - **Capture Videos (0-N)**: Allows users to record videos using the device's camera. The recording range can be from zero to any number of videos.\n - **Capture Images (0-N)**: Enables users to capture still images using the camera. Similar to video recording, it supports capturing a variable number of images.\n - **Choose Camera Quality**: Empowers users to select the quality of both images and videos they want to capture.\n - **Lock Camera Rotation**: Provides the option to fix the camera orientation in a specific position. Useful when users want to maintain a consistent camera orientation, such as horizontal or vertical, irrespective of how they hold the device.\n",s)],t.p),B.y,B.r,B.w),B.n,s,s,s,s,s,s,s,s,s,s,1/0)}}
 A.Iu.prototype={
 cA(a,b){var s=b.cn($.eB(),t.l)
-return new A.aZ(1/0,null,A.bu(A.b([B.DD,B.p,new A.dt(this.a26(a,s),B.F,B.A,new A.a19(s),!0,null)],t.p),B.y,B.r,B.w),null)},
+return new A.aZ(1/0,null,A.bu(A.b([B.DH,B.p,new A.dt(this.a26(a,s),B.F,B.A,new A.a19(s),!0,null)],t.p),B.y,B.r,B.w),null)},
 a26(a,b){var s=this,r=null
-if(b.gyZ())return A.bu(A.b([B.Dy,B.p,A.cs(s.a3o(b),b.gl(b)),B.H,B.DQ,B.p,A.cs(s.L9(b),b.gl(b)),B.H,B.DA,B.p,A.cs(s.L8(b),b.gl(b)),B.H,B.DE,B.p,A.cs(s.La(b),b.gl(b))],t.p),B.y,B.r,B.w)
-if(b.gUk())return A.bu(A.b([B.Dv,B.p,A.cs(s.a3s(b),b.gl(b)),B.H,B.DI,B.p,A.cs(s.a3p(b),b.gl(b)),B.H,B.Du,B.p,A.cs(s.L8(b),b.gl(b)),B.H,B.DC,B.p,A.cs(s.a3q(b),b.gl(b)),B.H,B.DK,B.p,A.cs(s.L9(b),b.gl(b)),B.H,B.DH,B.p,A.cs(s.La(b),b.gl(b)),B.H,B.DT,B.p,A.cs(s.a3n(b),b.gl(b)),B.H,B.DR,B.p,A.cs(s.a3r(b),b.gl(b))],t.p),B.y,B.r,B.w)
+if(b.gyZ())return A.bu(A.b([B.Dy,B.p,A.cs(s.a3o(b),b.gl(b)),B.H,B.DQ,B.p,A.cs(s.L9(b),b.gl(b)),B.H,B.DA,B.p,A.cs(s.L8(b),b.gl(b)),B.H,B.DD,B.p,A.cs(s.La(b),b.gl(b))],t.p),B.y,B.r,B.w)
+if(b.gUk())return A.bu(A.b([B.Dv,B.p,A.cs(s.a3s(b),b.gl(b)),B.H,B.DI,B.p,A.cs(s.a3p(b),b.gl(b)),B.H,B.Du,B.p,A.cs(s.L8(b),b.gl(b)),B.H,B.DC,B.p,A.cs(s.a3q(b),b.gl(b)),B.H,B.DL,B.p,A.cs(s.L9(b),b.gl(b)),B.H,B.DG,B.p,A.cs(s.La(b),b.gl(b)),B.H,B.DT,B.p,A.cs(s.a3n(b),b.gl(b)),B.H,B.DR,B.p,A.cs(s.a3r(b),b.gl(b))],t.p),B.y,B.r,B.w)
 return A.c1(r,r,B.n,r,r,r,r,r,r,r,r,r,r,r)},
 a3s(a){switch(a.a){case 0:return""
 case 1:return""
@@ -87246,20 +87246,20 @@ $0(){return new A.b1(this.a,t.Dz)},
 $S:83}
 A.IR.prototype={
 cA(a,b){var s=b.cn($.eB(),t.l)
-return new A.aZ(1/0,null,A.bu(A.b([B.DJ,B.p,new A.dP("The **Truvideo SDK** provides two properties that serve to check the authentication status:\n - **isAuthenticated**: Returns `true` or `false` indicating whether the client is authenticated. Please note that authentication may be expired.\n - **isAuthenticationExpired**: Returns `true` or `false` indicating whether the authentication is expired. If the client is not authenticated, it always returns `false`.\n",null),B.p,A.cs(this.a1Z(a,s),s.gl(s))],t.p),B.y,B.r,B.w),null)},
+return new A.aZ(1/0,null,A.bu(A.b([B.DK,B.p,new A.dP("The **Truvideo SDK** provides two properties that serve to check the authentication status:\n - **isAuthenticated**: Returns `true` or `false` indicating whether the client is authenticated. Please note that authentication may be expired.\n - **isAuthenticationExpired**: Returns `true` or `false` indicating whether the authentication is expired. If the client is not authenticated, it always returns `false`.\n",null),B.p,A.cs(this.a1Z(a,s),s.gl(s))],t.p),B.y,B.r,B.w),null)},
 a1Z(a,b){switch(b.a){case 0:return"boolean isAuthenticated = TruvideoSdk.getInstance().isAuthenticated();\nboolean isAuthenticationExpired = TruvideoSdk.getInstance().isAuthenticationExpired();\n"
 case 1:return"val isAuthenticated = TruvideoSdk.isAuthenticated\nval isAuthenticationExpired = TruvideoSdk.isAuthenticationExpired\n"
 case 2:return"let isAuthenticated = TruvideoSdk.isAuthenticated\nlet isAuthenticationExpired = TruvideoSdk.isAuthenticationExpired\n"}}}
 A.IQ.prototype={
 cA(a,b){var s=b.cn($.eB(),t.l),r=s.gl(s)
-return new A.aZ(1/0,null,A.bu(A.b([B.DF,B.p,new A.dP("For initial authentication, call the `authenticate` method, which requires **apiKey**, **payload** and **signature**.\n - **ApiKey**: a `string` that should have been provided.\n - **Payload**: necessary data that the **Truvideo SDK** facilitates generating. It's crucial to note that the payload should be generated just before invoking the `authenticate` method.\n - **Signature**: a `string` obtained by encrypting the payload using the **SHA256** algorithm, with the *secret** as the key.\n\nWe _**strongly**_ recommend not storing the **secret** in the host application. Instead, it is advised to implement a private logic in a backend owned by you. This backend should receive the payload generated by the **Truvideo SDK** and return the generated **signature**. This approach helps avoid exposing the **secret** and potential security issues associated with it.\n",null),B.p,A.cs(this.a2_(a,s),r)],t.p),B.y,B.r,B.w),null)},
+return new A.aZ(1/0,null,A.bu(A.b([B.DE,B.p,new A.dP("For initial authentication, call the `authenticate` method, which requires **apiKey**, **payload** and **signature**.\n - **ApiKey**: a `string` that should have been provided.\n - **Payload**: necessary data that the **Truvideo SDK** facilitates generating. It's crucial to note that the payload should be generated just before invoking the `authenticate` method.\n - **Signature**: a `string` obtained by encrypting the payload using the **SHA256** algorithm, with the *secret** as the key.\n\nWe _**strongly**_ recommend not storing the **secret** in the host application. Instead, it is advised to implement a private logic in a backend owned by you. This backend should receive the payload generated by the **Truvideo SDK** and return the generated **signature**. This approach helps avoid exposing the **secret** and potential security issues associated with it.\n",null),B.p,A.cs(this.a2_(a,s),r)],t.p),B.y,B.r,B.w),null)},
 a2_(a,b){var s='private void authenticate(){\n    boolean isAuthenticated = TruvideoSdk.getInstance().isAuthenticated();\n    boolean isAuthenticationExpired = TruvideoSdk.getInstance().isAuthenticationExpired();\n    \n    if (!isAuthenticated || isAuthenticationExpired) {\n        String apiKey = "your-api-key";\n        String payload = TruvideoSdk.getInstance().generatePayload();\n        String signature = "your-signature";\n    \n        TruvideoSdk.getInstance().authenticate(\n                apiKey,\n                payload,\n                signature,\n                new TruvideoSdkAuthenticationCallback() {\n                    @Override\n                    public void onReady() {\n    \n                    }\n    \n                    @Override\n                    public void onError(@NonNull TruvideoSdkException e) {\n    \n                    }\n                }\n        );\n    } else {\n        TruvideoSdk.getInstance().init(\n                new TruvideoSdkInitCallback() {\n                    @Override\n                    public void onReady() {\n    \n                    }\n    \n                    @Override\n                    public void onError(@NonNull TruvideoSdkException e) {\n    \n                    }\n                }\n        );\n    }\n}\n'
 switch(b.a){case 0:return s
 case 1:return s
 case 2:return'func authenticate() async{\n    let isAuthenticated = TruvideoSdk.isAuthenticated\n    let isAuthenticationExpired = TruvideoSdk.isAuthenticationExpired\n    if(!isAuthenticated || isAuthenticationExpired){\n        let apiKey = "your-api-key"\n        let payload = TruvideoSdk.generatePayload()\n        let signature = "your-signature"\n        do{\n            try await TruvideoSdk.authenticate(apiKey: apiKey, payload: payload, signature: signature)\n        }catch {\n            // Handle error\n        }\n    }else{\n        do{\n            try await TruvideoSdk.\xb4init\xb4()\n        }catch {\n            // Handle error\n        }\n    }\n}\n'}}}
 A.IS.prototype={
 cA(a,b){var s=b.cn($.eB(),t.l)
-return new A.aZ(1/0,null,A.bu(A.b([B.DL,B.p,new A.dP("To delete the current session and erase all associated authentication data, utilize the `clear` method\n",null),B.p,A.cs(this.a3d(a,s),s.gl(s))],t.p),B.y,B.r,B.w),null)},
+return new A.aZ(1/0,null,A.bu(A.b([B.DM,B.p,new A.dP("To delete the current session and erase all associated authentication data, utilize the `clear` method\n",null),B.p,A.cs(this.a3d(a,s),s.gl(s))],t.p),B.y,B.r,B.w),null)},
 a3d(a,b){var s="TruvideoSdk.clear()\n"
 switch(b.a){case 0:return"TruvideoSdk.getInstance().clear();\n"
 case 1:return s
@@ -87311,7 +87311,7 @@ A.LV.prototype={
 G(a){return new A.aZ(1/0,null,A.bu(A.b([new A.dP("Our **media module** is a powerful tool that allows you to efficiently and securely manage and share your photos and videos. With this module, you can easily upload your multimedia files to the cloud\n",null)],t.p),B.y,B.r,B.w),null)}}
 A.LY.prototype={
 cA(a,b){var s=b.cn($.eB(),t.l)
-return new A.aZ(1/0,null,A.bu(A.b([B.DG,B.p,new A.dt(A.cs(this.afK(s),s.gl(s)),B.a6,B.A,new A.aac(s),!0,null)],t.p),B.y,B.r,B.w),null)},
+return new A.aZ(1/0,null,A.bu(A.b([B.DF,B.p,new A.dt(A.cs(this.afK(s),s.gl(s)),B.a6,B.A,new A.aac(s),!0,null)],t.p),B.y,B.r,B.w),null)},
 afK(a){switch(a.a){case 0:return'import com.truvideo.sdk.media.TruvideoSdkMedia;\n\nvoid uploadFile(Context context, String filePath){\n    final String id = TruvideoSdkMedia.getInstance().upload(\n            context,\n            Uri.parse("filePath"),\n            new TruvideoSdkUploadCallback() {\n                @Override\n                public void onComplete(@NonNull String id, @NonNull String url) {\n\n                }\n\n                @Override\n                public void onProgressChanged(@NonNull String id, int progress) {\n\n                }\n\n                @Override\n                public void onError(@NonNull String id, @NonNull TruvideoSdkException ex) {\n\n                }\n            }\n    );\n}\n'
 case 1:return"import com.truvideo.sdk.media.TruvideoSdkMedia\n\nfun uploadFile(context: Context, filePath: String){\n    TruvideoSdkMedia.upload(\n        context,\n        android.net.Uri.parse(filePath),\n        object : TruvideoSdkUploadCallback {\n            override fun onComplete(id: String, url: String) {\n            }\n\n            override fun onError(id: String, ex: TruvideoSdkException) {\n            }\n\n            override fun onProgressChanged(id: String, progress: Int) {\n            }\n        }\n    )\n}\n"
 case 2:return'import TruvideoSdkMedia\n\nfunc uploadFile(videoPath: String) {\n    let fileUploadRequest = TruvideoSdkMedia.uploader.uploadFile(\n        at: URL(string: videoPath)!\n    )\n    \n    let progressCancellable = fileUploadRequest.progressHandler.sink(receiveValue: { fileUpload in\n        let percentage = fileUpload.percentage\n        // Handle upload progress\n    })\n    \n    let completeCancellable = fileUploadRequest.completionHandler.sink(receiveCompletion: { receiveCompletion in\n        switch receiveCompletion {\n        case .finished:\n            print("finished")\n        case .failure(let error):\n            print("failure")\n        }\n    }, receiveValue: { uploadedResult in\n        let url = uploadedResult.uploadedFileURL\n        // Handle upload completed\n    })\n    \n    let id = fileUploadRequest.id\n}\n'}}}
@@ -91006,17 +91006,17 @@ B.Dz=new A.cf("Edit video",B.aA,null)
 B.DA=new A.cf("TruvideoSdkCameraQuality",B.b4,null)
 B.DB=new A.cf("Compare videos",B.aA,null)
 B.DC=new A.cf("Mode",B.b4,null)
-B.DD=new A.cf("Entities",B.aA,null)
-B.DE=new A.cf("TruvideoSdkCameraResult",B.b4,null)
-B.DF=new A.cf("How to authenticate",B.aA,null)
-B.DG=new A.cf("Upload a file",B.aA,null)
-B.DH=new A.cf("Result",B.b4,null)
+B.DD=new A.cf("TruvideoSdkCameraResult",B.b4,null)
+B.DE=new A.cf("How to authenticate",B.aA,null)
+B.DF=new A.cf("Upload a file",B.aA,null)
+B.DG=new A.cf("Result",B.b4,null)
 B.iu=new A.cf("Adding the module",B.aA,null)
+B.DH=new A.cf("Entities!",B.aA,null)
 B.DI=new A.cf("Flash Status",B.b4,null)
-B.DJ=new A.cf("Authentication Status",B.aA,null)
-B.DK=new A.cf("Orientation",B.b4,null)
-B.DL=new A.cf("Clear authentication",B.aA,null)
-B.DM=new A.cf("Initialize",B.aA,null)
+B.DJ=new A.cf("Initialize! Hi jose",B.aA,null)
+B.DK=new A.cf("Authentication Status",B.aA,null)
+B.DL=new A.cf("Orientation",B.b4,null)
+B.DM=new A.cf("Clear authentication",B.aA,null)
 B.DN=new A.cf("Concat videos",B.aA,null)
 B.DO=new A.cf("Cancel a upload",B.aA,null)
 B.DP=new A.cf("Get video info",B.aA,null)

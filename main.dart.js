@@ -3103,13 +3103,15 @@ ug:function ug(a,b,c){var _=this
 _.e=null
 _.a=a
 _.b=b
-_.c=c},
+_.c=c
+_.d=!1},
 acD:function acD(a){this.a=a},
 JK:function JK(a,b,c,d){var _=this
 _.e=a
 _.a=b
 _.b=c
-_.c=d},
+_.c=d
+_.d=!1},
 H8:function H8(a){this.a=a
 this.c=this.b=null},
 Z0:function Z0(a){this.a=a},
@@ -3135,9 +3137,11 @@ _.e=_.d=null},
 a6K:function a6K(a,b){this.a=a
 this.b=b},
 a6L:function a6L(a){this.a=a},
-z2:function z2(a,b,c){this.a=a
-this.b=b
-this.c=c},
+z2:function z2(a,b,c){var _=this
+_.a=a
+_.b=b
+_.c=c
+_.d=!1},
 a7E:function a7E(a,b){var _=this
 _.a=$
 _.b=a
@@ -3147,7 +3151,8 @@ pj:function pj(a,b,c){var _=this
 _.e=null
 _.a=a
 _.b=b
-_.c=c},
+_.c=c
+_.d=!1},
 aa1:function aa1(a,b){var _=this
 _.a=$
 _.b=a
@@ -3267,7 +3272,8 @@ _.e=null
 _.f=!1
 _.a=a
 _.b=b
-_.c=c},
+_.c=c
+_.d=!1},
 aft:function aft(a,b){this.a=a
 this.b=b},
 ae7:function ae7(a,b,c,d,e,f){var _=this
@@ -26337,6 +26343,7 @@ _.f=null
 _.a=0
 _.b=a
 _.d=_.c=0
+_.e=!1
 _.$ti=b},
 aaU:function aaU(a,b){this.a=a
 this.b=b},
@@ -32571,9 +32578,7 @@ s.ali(b)}finally{c.$1(null)}else $.YP().ap1(a,b,c)},
 PK(a,b,a0){var s,r,q,p,o,n,m,l,k,j,i,h,g,f,e,d=this,c=null
 switch(a){case"flutter/skia":s=B.aN.ih(b)
 switch(s.a){case"Skia.setResourceCacheMaxBytes":if($.ac() instanceof A.a_v){r=A.dD(s.b)
-q=$.aK3.lz().d
-q.w=r
-q.aqZ()}d.eO(a0,B.a0.bP([A.b([!0],t.HZ)]))
+$.aK3.lz().d.aqT(r)}d.eO(a0,B.a0.bP([A.b([!0],t.HZ)]))
 break}return
 case"flutter/assets":d.rh(B.E.eB(A.eA(b.buffer,0,c)),a0)
 return
@@ -33455,9 +33460,9 @@ s.toString
 this.e=t.JX.a(s)}}}
 A.acD.prototype={
 $0(){var s,r=this.a
-r.aaR()
+if(!r.d){r.aaR()
 s=r.e
-if(s!=null)s.T9(r)},
+if(s!=null)s.T9(r)}},
 $S:0}
 A.JK.prototype={
 eq(){var s,r,q=this,p=q.b
@@ -46126,7 +46131,7 @@ $0(){return this.a.adI(this.b,this.c)},
 $S:0}
 A.anp.prototype={
 ee(){var s,r,q,p,o,n=this
-for(s=n.a,r=s.gaN(),q=A.n(r),q=q.h("@<1>").a7(q.y[1]),r=new A.bm(J.ao(r.a),r.b,q.h("bm<1,2>")),p=n.r,q=q.y[1];r.p();){o=r.a;(o==null?q.a(o):o).aqT(p)}s.O(0)
+for(s=n.a,r=s.gaN(),q=A.n(r),q=q.h("@<1>").a7(q.y[1]),r=new A.bm(J.ao(r.a),r.b,q.h("bm<1,2>")),p=n.r,q=q.y[1];r.p();){o=r.a;(o==null?q.a(o):o).aqU(p)}s.O(0)
 n.c=B.u
 s=n.y
 if(s!=null)s.aT()}}
@@ -84745,11 +84750,11 @@ if(q.CW){q.CW=!1
 q.OR()}}}},
 acK(){var s,r,q,p,o
 for(s=this.c,r=0;r<s.length;++r){q=s[r]
-p=q.gaqW()
+p=q.gaqX()
 if(!q.gkW()){o=p.gbq(p)
-o=o||q.gGR()||q.ga6B().gaqV()}else o=!0
+o=o||q.gGR()||q.ga6B().gaqW()}else o=!0
 if(o)continue
-q.ga6B().aqU(q.gaqX())}},
+q.ga6B().aqV(q.gaqY())}},
 aqF(a){return this.gIz().$1(a)}}
 A.aaS.prototype={
 $1(a){var s,r,q,p,o={}
@@ -86849,9 +86854,9 @@ $S:17}
 A.Ld.prototype={
 cl(a,b){var s=b.c4($.dT(),t.h)
 return new A.aQ(1/0,null,A.bi(A.b([B.Dw,B.m,B.Dq,B.m,new A.d2(A.bY(this.agK(s),s.gl()),B.a_,B.z,new A.a8u(s),!0,null)],t.p),B.x,B.t,B.v),null)},
-agK(a){switch(a.a){case 0:return'import com.truvideo.sdk.media.TruvideoSdkMedia;\n\nprivate void uploadFile(String filePath) {\n    // Create file upload request builder\n    final TruvideoSdkMediaFileUploadRequestBuilder builder = TruvideoSdkMedia.getInstance().FileUploadRequestBuilder(filePath);\n    builder.addTag("key", "value");\n    builder.addTag("color", "red");\n    builder.addTag("order-number", "123");\n\n    // Build request\n    builder.build(request -> {\n        // Here the request its ready to be used\n\n        // Upload file\n        request.upload(new TruvideoSdkMediaFileUploadCallback() {\n            @Override\n            public void onComplete(@NonNull String id, @NonNull TruvideoSdkMediaFileUploadRequest response) {\n                // Handle complete upload\n                String url = response.getUrl();\n                String transcriptionUrl = response.getTranscriptionUrl();\n                Map<String, String> tags = response.getTags();\n            }\n\n            @Override\n            public void onProgressChanged(@NonNull String id, float progress) {\n                // Handle progress upload\n\n            }\n\n            @Override\n            public void onError(@NonNull String id, @NonNull TruvideoSdkException ex) {\n                // Handle error upload\n            }\n        });\n    });\n}\n'
-case 1:return'import com.truvideo.sdk.media.TruvideoSdkMedia\n\nsuspend fun uploadFile(filePath: String) {\n    // Create a file upload request builder\n    val builder = TruvideoSdkMedia.FileUploadRequestBuilder(filePath)\n    builder.addTag("key", "value")\n    builder.addTag("color", "red")\n    builder.addTag("order-number", "123")\n\n    // Build the request\n    val request = builder.build()\n\n    // Upload the file\n    request.upload(object : TruvideoSdkMediaFileUploadCallback {\n        override fun onComplete(id: String, response: TruvideoSdkMediaFileUploadRequest) {\n            // Handle completion\n            val url = response.url\n            val transcriptionURL = response.transcriptionUrl\n            val tags = response.tags\n        }\n\n        override fun onProgressChanged(id: String, progress: Float) {\n            // Handle progress\n        }\n\n        override fun onError(id: String, ex: TruvideoSdkException) {\n            // Handle error\n        }\n    })\n}\n'
-case 2:return'import TruvideoSdkMedia\n\nfunc uploadFile(videoPath: String) {\n    let fileUploadRequest = TruvideoSdkMedia.uploader.uploadFile(\n        at: url,\n        tags: [\n            "color": "red",\n            "order-number": "123",\n            "key1": "value1"\n        ]\n    )\n                       \n    let progressCancellable = fileUploadRequest.progressHandler.sink(receiveValue: { fileUpload in\n        let percentage = fileUpload.percentage\n        // Handle upload progress\n    })\n    \n    let completeCancellable = fileUploadRequest.completionHandler.sink(receiveCompletion: { receiveCompletion in\n        switch receiveCompletion {\n        case .finished:\n          // Handle completion\n        case .failure(let error):\n          // Handle error\n        }\n    }, receiveValue: { uploadedResult in\n        // Handle upload completed\n        let url = uploadedResult.uploadedFileURL\n        let transcriptionUrl = uploadedResult.transcriptionURL\n        let tags = uploadedResult.tags\n    })    \n}\n'}}}
+agK(a){switch(a.a){case 0:return'import com.truvideo.sdk.media.TruvideoSdkMedia;\n\nprivate void uploadFile(String filePath) {\n    // Create file upload request builder\n    final TruvideoSdkMediaFileUploadRequestBuilder builder = TruvideoSdkMedia.getInstance().FileUploadRequestBuilder(filePath);\n    \n    // Tags\n    builder.addTag("key", "value");\n    builder.addTag("color", "red");\n    builder.addTag("order-number", "123");\n\n    // Metadata\n    final Map<String, Object> metadata = new HashMap<>();\n    metadata.put("key", "value");\n    metadata.put("numeric", 1);\n\n    final Map<String, Object> nestedMetadata = new HashMap<>();\n    nestedMetadata.put("key1", "value1");\n    nestedMetadata.put("key2", "value2");\n    metadata.put("nested", nestedMetadata);\n    builder.setMetadata(metadata)\n        \n    // Build request\n    builder.build(request -> {\n        // Here the request its ready to be used\n\n        // Upload file\n        request.upload(new TruvideoSdkMediaFileUploadCallback() {\n            @Override\n            public void onComplete(@NonNull String id, @NonNull TruvideoSdkMediaFileUploadRequest response) {\n                // Handle complete upload\n                String url = response.getUrl();\n                String transcriptionUrl = response.getTranscriptionUrl();\n                Map<String, String> tags = response.getTags();\n                Map<String, Object> metadata = response.getMetadata();\n            }\n\n            @Override\n            public void onProgressChanged(@NonNull String id, float progress) {\n                // Handle progress upload\n\n            }\n\n            @Override\n            public void onError(@NonNull String id, @NonNull TruvideoSdkException ex) {\n                // Handle error upload\n            }\n        });\n    });\n}\n'
+case 1:return'import com.truvideo.sdk.media.TruvideoSdkMedia\n\nsuspend fun uploadFile(filePath: String) {\n    // Create a file upload request builder\n    val builder = TruvideoSdkMedia.FileUploadRequestBuilder(filePath)\n    \n    // Tags\n    builder.addTag("key", "value")\n    builder.addTag("color", "red")\n    builder.addTag("order-number", "123")\n\n    // Metadata\n    val metadata = mapOf<String, Any?>(\n        "key" to "value",\n        "numeric" to 1,\n        "nested" to mapOf<String, Any?>(\n            "key1" to "value1",\n            "key2" to "value2"\n        )\n    )\n    builder.setMetadata(metadata)\n\n    // Build the request\n    val request = builder.build()\n\n    // Upload the file\n    request.upload(object : TruvideoSdkMediaFileUploadCallback {\n        override fun onComplete(id: String, response: TruvideoSdkMediaFileUploadRequest) {\n            // Handle completion\n            val url = response.url\n            val transcriptionURL = response.transcriptionUrl\n            val tags = response.tags\n            val metadata = response.metadata\n        }\n\n        override fun onProgressChanged(id: String, progress: Float) {\n            // Handle progress\n        }\n\n        override fun onError(id: String, ex: TruvideoSdkException) {\n            // Handle error\n        }\n    })\n}\n'
+case 2:return'import TruvideoSdkMedia\n\nfunc uploadFile(videoPath: String) {\n    let fileUploadRequest = TruvideoSdkMedia.uploader.uploadFile(\n        at: url,\n        tags: [\n            "color": "red",\n            "order-number": "123",\n            "key1": "value1"\n        ],\n        metadata: [\n            "key": "value",\n            "numeric": 1,\n            "nested": [\n                "key1": "value1",\n                "key2": "value2"\n            ]\n        ]\n    )\n                       \n    let progressCancellable = fileUploadRequest.progressHandler.sink(receiveValue: { fileUpload in\n        let percentage = fileUpload.percentage\n        // Handle upload progress\n    })\n    \n    let completeCancellable = fileUploadRequest.completionHandler.sink(receiveCompletion: { receiveCompletion in\n        switch receiveCompletion {\n        case .finished:\n          // Handle completion\n        case .failure(let error):\n          // Handle error\n        }\n    }, receiveValue: { uploadedResult in\n        // Handle upload completed\n        let url = uploadedResult.uploadedFileURL\n        let transcriptionUrl = uploadedResult.transcriptionURL\n        let tags = uploadedResult.tags\n        let metadata = uploadedResult.metadata\n    })    \n}\n'}}}
 A.a8u.prototype={
 $0(){return new A.aV(this.a,t.Zc)},
 $S:17}
@@ -87404,7 +87409,7 @@ s[2]=s[2]*a
 s[1]=s[1]*a
 s[0]=s[0]*a
 return r},
-a5(a7,a8){var s,r,q,p,o,n,m,l,k,j,i,h,g,f,e,d,c=this.a,b=c[3],a=c[2],a0=c[1],a1=c[0],a2=a8.gaqY(),a3=a2.i(0,3),a4=a2.i(0,2),a5=a2.i(0,1),a6=a2.i(0,0)
+a5(a7,a8){var s,r,q,p,o,n,m,l,k,j,i,h,g,f,e,d,c=this.a,b=c[3],a=c[2],a0=c[1],a1=c[0],a2=a8.gaqZ(),a3=a2.i(0,3),a4=a2.i(0,2),a5=a2.i(0,1),a6=a2.i(0,0)
 c=B.d.a5(b,a6)
 s=B.d.a5(a1,a3)
 r=B.d.a5(a0,a4)
